@@ -17,6 +17,9 @@ namespace PMC_01
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+            Console.WriteLine(Form1.nombre);
+
+            
         }
     }
 }

@@ -180,6 +180,10 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox1;
+        
+        //se crea la variable publica "nombre" que guarda la informacion del nombre
+        public static string nombre = textBox1.Text;
+
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
@@ -187,6 +191,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.CheckBox checkBox1;
+        
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.CheckBox checkBox2;
     }
