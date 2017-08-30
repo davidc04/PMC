@@ -206,9 +206,12 @@
         #endregion
 
         private System.Windows.Forms.Button Guardar_Inquilino;
-        private System.Windows.Forms.TextBox Apellidos;
-        
-        //se crea la variable publica "nombre" que guarda la informacion del nombr
+        public System.Windows.Forms.TextBox Apellidos;
+
+        //se declara la variable publica "apellido" que guarda la informacion del nombr
+        public static string apellido;
+        public static string Apellido { get => apellido; set => apellido = value; }
+
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox Nombres;
@@ -222,6 +225,8 @@
         private System.Windows.Forms.CheckBox Estacionamiento;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.CheckBox Bodega;
+
+        
     }
 }
 
