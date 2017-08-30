@@ -41,5 +41,20 @@ namespace PMC_01
         {
 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Apellidos_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
