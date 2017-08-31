@@ -56,5 +56,10 @@ namespace PMC_01
         {
 
         }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
