@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.Guardar_Inquilino = new System.Windows.Forms.Button();
             this.Apellidos = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -42,8 +43,8 @@
             this.label6 = new System.Windows.Forms.Label();
             this.Bodega = new System.Windows.Forms.CheckBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.Placa = new System.Windows.Forms.TextBox();
+            this.Vehículoc = new System.Windows.Forms.CheckBox();
             this.label8 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -52,7 +53,7 @@
             this.Guardar_Inquilino.BackColor = System.Drawing.Color.Transparent;
             this.Guardar_Inquilino.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.Guardar_Inquilino.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Guardar_Inquilino.Location = new System.Drawing.Point(216, 205);
+            this.Guardar_Inquilino.Location = new System.Drawing.Point(216, 218);
             this.Guardar_Inquilino.Name = "Guardar_Inquilino";
             this.Guardar_Inquilino.Size = new System.Drawing.Size(154, 27);
             this.Guardar_Inquilino.TabIndex = 0;
@@ -62,7 +63,7 @@
             // 
             // Apellidos
             // 
-            this.Apellidos.Location = new System.Drawing.Point(78, 31);
+            this.Apellidos.Location = new System.Drawing.Point(74, 31);
             this.Apellidos.Name = "Apellidos";
             this.Apellidos.Size = new System.Drawing.Size(142, 20);
             this.Apellidos.TabIndex = 1;
@@ -82,7 +83,7 @@
             // 
             // Nombres
             // 
-            this.Nombres.Location = new System.Drawing.Point(78, 72);
+            this.Nombres.Location = new System.Drawing.Point(74, 72);
             this.Nombres.Name = "Nombres";
             this.Nombres.Size = new System.Drawing.Size(142, 20);
             this.Nombres.TabIndex = 4;
@@ -93,6 +94,7 @@
             this.Apartamento.Name = "Apartamento";
             this.Apartamento.Size = new System.Drawing.Size(109, 20);
             this.Apartamento.TabIndex = 6;
+            this.Apartamento.TextChanged += new System.EventHandler(this.Apartamento_TextChanged);
             // 
             // label2
             // 
@@ -189,21 +191,23 @@
             this.label7.TabIndex = 15;
             this.label7.Text = "Vehículos";
             // 
-            // textBox1
+            // Placa
             // 
-            this.textBox1.Location = new System.Drawing.Point(382, 30);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(142, 20);
-            this.textBox1.TabIndex = 16;
+            this.Placa.Location = new System.Drawing.Point(382, 30);
+            this.Placa.Name = "Placa";
+            this.Placa.Size = new System.Drawing.Size(142, 20);
+            this.Placa.TabIndex = 16;
+            this.Placa.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // checkBox1
+            // Vehículoc
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(382, 121);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
-            this.checkBox1.TabIndex = 17;
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.Vehículoc.AutoSize = true;
+            this.Vehículoc.Location = new System.Drawing.Point(382, 121);
+            this.Vehículoc.Name = "Vehículoc";
+            this.Vehículoc.Size = new System.Drawing.Size(15, 14);
+            this.Vehículoc.TabIndex = 17;
+            this.Vehículoc.UseVisualStyleBackColor = true;
+            this.Vehículoc.CheckedChanged += new System.EventHandler(this.CheckBox1_CheckedChanged);
             // 
             // label8
             // 
@@ -221,10 +225,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(595, 257);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.Vehículoc);
+            this.Controls.Add(this.Placa);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.Bodega);
             this.Controls.Add(this.label6);
@@ -270,8 +275,8 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.CheckBox Bodega;
         private System.Windows.Forms.Label label7;
-        public System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.CheckBox checkBox1;
+        public System.Windows.Forms.TextBox Placa;
+        private System.Windows.Forms.CheckBox Vehículoc;
         private System.Windows.Forms.Label label8;
     }
 }

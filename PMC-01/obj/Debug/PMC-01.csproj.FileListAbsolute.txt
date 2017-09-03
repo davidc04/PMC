@@ -37,3 +37,13 @@ C:\Users\David\Source\Repos\PMC20\PMC-01\obj\Debug\PMC-01.csproj.GenerateResourc
 C:\Users\David\Source\Repos\PMC20\PMC-01\obj\Debug\PMC-01.csproj.CoreCompileInputs.cache
 C:\Users\David\Source\Repos\PMC20\PMC-01\obj\Debug\PMC-01.exe
 C:\Users\David\Source\Repos\PMC20\PMC-01\obj\Debug\PMC-01.pdb
+C:\Users\David\Documents\PMC FINAL\PMC-01\bin\Debug\PMC-01.exe.config
+C:\Users\David\Documents\PMC FINAL\PMC-01\bin\Debug\PMC-01.exe
+C:\Users\David\Documents\PMC FINAL\PMC-01\bin\Debug\PMC-01.pdb
+C:\Users\David\Documents\PMC FINAL\PMC-01\obj\Debug\PMC-01.csprojResolveAssemblyReference.cache
+C:\Users\David\Documents\PMC FINAL\PMC-01\obj\Debug\PMC_01.Form1.resources
+C:\Users\David\Documents\PMC FINAL\PMC-01\obj\Debug\PMC_01.Properties.Resources.resources
+C:\Users\David\Documents\PMC FINAL\PMC-01\obj\Debug\PMC-01.csproj.GenerateResource.Cache
+C:\Users\David\Documents\PMC FINAL\PMC-01\obj\Debug\PMC-01.csproj.CoreCompileInputs.cache
+C:\Users\David\Documents\PMC FINAL\PMC-01\obj\Debug\PMC-01.exe
+C:\Users\David\Documents\PMC FINAL\PMC-01\obj\Debug\PMC-01.pdb

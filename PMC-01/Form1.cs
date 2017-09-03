@@ -61,5 +61,24 @@ namespace PMC_01
         {
 
         }
+
+        private void Apartamento_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CheckBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            
+Placa.Enabled = Vehículoc.Checked
+;
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
+
+
